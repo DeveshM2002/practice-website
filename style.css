@@ -1,0 +1,75 @@
+img
+{
+    border-radius: 15%;
+}
+body 
+{
+	font-family: 'Montserrat', sans-serif;
+    color: #404142;
+    font-size: 16px;
+	letter-spacing: 0.2px;
+}
+h1, h2, h3, h4, h5, h6 
+{
+	font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: -0.1px;
+    opacity:0.7;
+}
+hr 
+{
+    height: 0;
+    border:2px solid #404142;
+    opacity: 0.1;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+a 
+{
+	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+  	transition: all 0.3s;
+}
+.btn 
+{
+	text-transform: capitalize;
+    font-weight: 600;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+    
+}
+.btn-lg 
+{
+	padding: 5px 10px;
+    font-size: 16px;
+    line-height: none;
+    border-radius: 4px;
+}
+.btn-yellow 
+{
+	background-color: #6ae2de;
+	color: #2a2a2a;
+	opacity: 0.8;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+    
+}
+.btn-yellow:hover 
+{
+	opacity: 0.9;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.about span 
+{
+	font-size: 2em;
+    color: #016cc7;
+}
+.about p
+{
+    opacity:0.6;
+}
